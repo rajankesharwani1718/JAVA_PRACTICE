@@ -11,6 +11,7 @@ public class MainClass {
         System.out.println("**************************");
         B objectB = new B();
         System.out.println("Object B public value "+objectB.namePublic);
+        System.out.println("The protected value    : " +objectB.getProtectedValue());
         objectB.publicMethod();
 
     }
